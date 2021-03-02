@@ -1,0 +1,78 @@
+body {
+  background-attachment: scroll;
+  background-color: rgb(179, 241, 255);
+  height: 190px;
+  background-image: url("https://i.pinimg.com/originals/0e/40/ca/0e40ca65e015590db28d97bc0fb511c2.jpg");
+  background-position: left bottom;
+  background-repeat: repeat-x;
+}
+h1 {
+  position: relative;
+  right: 320px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #126970;
+  text-decoration: blink;
+  font-weight: lighter;
+  text-shadow: #71bda0c6 20px -15px;
+}
+figure img {
+  display: block;
+  margin: auto;
+  border-radius: 15%;
+  position: relative;
+  right: 220px;
+}
+figcaption {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  left: 40px;
+  bottom: 145px;
+  font-weight: bold;
+  color: #126970;
+}
+article {
+  text-transform: uppercase;
+  position: relative;
+  bottom: 190px;
+  left: 15px;
+  font-weight: lighter;
+  color: #126970;
+}
+nav {
+  position: relative;
+  bottom: 419px;
+  color: #0e3d41;
+  text-align: right;
+}
+nav ::after {
+  content: "|";
+  color: #126970;
+}
+main {
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+  color: #0e4b48;
+}
+main {
+  background-color: lightblue;
+  /* background-image: url("https://img2.akspic.ru/image/111855-sinij-liniya-uzor-zelenyj-dizajn-2048x1152.jpg");
+  background-attachment: scroll;
+  height: 40px;
+  width: 100%;
+  background-position: center;
+  background-repeat: cover; */
+}
+ul,
+ol {
+  text-align: left;
+  display: inline-block;
+}
+ul li {
+  text-align: left;
+}
+main h2 {
+  font-weight: lighter;
+}
